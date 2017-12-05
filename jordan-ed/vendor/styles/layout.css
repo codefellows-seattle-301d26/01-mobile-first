@@ -7,3 +7,11 @@ nav img {
 ul {
     visibility: hidden;
 }
+
+.site-header {
+    background-color: #ffb53e
+}
+
+#pull-right {
+    width: 100%;
+}
