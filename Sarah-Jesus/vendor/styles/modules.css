@@ -1,24 +1,25 @@
-.hamburger {
-    width: 35px;
-    height: 6px;
-    border-top: 5px solid black;
-    border-bottom: 15px double black;
-    margin: 6px 0;
+@media screen and (max-width: 600px) {
+    .hamburger {
+        width: 35px;
+        height: 6px;
+        border-top: 5px solid black;
+        border-bottom: 15px double black;
+        margin: 6px 0;
+    }
+    .tab {
+        visibility: collapse;
+    }
+    
+    #show-menu{
+        display: none;
+    }
+       
+    .main-nav .show-menu {
+        display:block;
+       
+    }
+    
+    #show-menu:checked ~ * .tab {
+        visibility: visible;
+    }
 }
-.main-nav ul li {
-    display: none;
-}
-   
-.main-nav .show-menu {
-    display:block;
-   
-}
-
-.main-nav input[type=checkbox] {
-    display: block;
-}
-.main-nav input[type=checkbox]:checked .tab li {
-    background-color: yellow;
-    display:block;
-}
-.main-nav 
