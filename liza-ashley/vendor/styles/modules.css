@@ -69,4 +69,9 @@
     .menuToggle input:checked ~ ul {
       transform: none;
     }
+    .center {
+      text-align: center;
+      display: block;
+  }
+
     }
