@@ -1,0 +1,16 @@
+a:link {
+    text-decoration: none;
+    color: grey;
+    padding: 2px;
+}
+a:visited {
+    color: grey;
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
