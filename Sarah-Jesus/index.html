@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
   <title>Lab 1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="vendor/styles/normalize.css">
@@ -9,25 +10,16 @@
         <link rel="stylesheet" href="vendor/styles/base.css">
         <link rel="stylesheet" href="vendor/styles/layout.css">
         <link rel="stylesheet" href="vendor/styles/modules.css">
-  <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
-
-  <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
-
-  <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
-
-  <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- Making sure that the style files cascade in order of specificity, with more general ones at the top and more specific at the bottom.  We also want to make sure that subordinate files have access to the fonts so we put the icons.css one higher in the hierarchy. -->
 
-  <!-- REVIEW: This is the favicon -->
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
 </head>
 <body>
-  <!-- REVIEW: Note that the header has multiple classes. This is a perfectly normal thing in HTML/CSS, even though we have not seen it very much so far. -->
   <header class="site-header clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
-    <!-- PUT YOUR RESPONSE HERE -->
+    <!--I don’t really get it but, it seems like clearfix could be useful if you have made a header or div with child elements that are floated left/right in a way that makes sense for desktop sizing, but then in mobile sizing you wanted all those child elements to stack or display with out the floats.  Using clearfix you could target the header element and in one line clear the floats of the children without having to go in and do so for each child.-->
 
     <section class="heading-group-h1">
       <h1>
@@ -57,7 +49,6 @@
       <article class="clearfix" data-category="bacon">
           <header>
             <h1>Bacon Ipsum</h1>
-            <!-- REVIEW: Look closely at the HTML structure of this "byline" div, as it will affect how you choose to target these elements in CSS. -->
             <div class="byline">
               By <address><a href="http://www.imdb.com/name/nm0000102/">Kevin Bacon</a></address>
               published <time pubdate="" datetime="2015-11-05" title="2015-11-05">about 718 days ago</time>
@@ -101,7 +92,6 @@
     </section>
   </main>
   <footer>
-    <!-- REVIEW: Note the use of &copy; below, and take a moment to look up how special characters are displayed in HTML if you are not familiar with them. -->
     &copy; 2017 Code Fellows | Static Blog | Happy Ipsum!
   </footer>
 </body>
