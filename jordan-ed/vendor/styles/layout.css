@@ -1,0 +1,17 @@
+nav img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+ul {
+    visibility: hidden;
+}
+
+.site-header {
+    background-color: #ffb53e
+}
+
+#pull-right {
+    width: 100%;
+}

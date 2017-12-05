@@ -21,6 +21,9 @@ Added normalized link - 9:45am
 Added README and first update - 9:52am
 Added link to icons.css - 9:55am
 Added layout, modules, and base css and linked them - 9:58am
+Added hamgurger icon 10:55am
+Position hamburger menu top right for mobile 11:15am
+Add header background color 11:35am
 
 
 <!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
