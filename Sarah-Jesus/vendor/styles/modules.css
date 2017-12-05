@@ -1,19 +1,24 @@
+   #show-menu {
+        display: none;
+    }
+       
+
 @media screen and (max-width: 600px) {
     .hamburger {
+        display: inline-block;
+        float: right;
         width: 35px;
         height: 6px;
         border-top: 5px solid black;
         border-bottom: 15px double black;
-        margin: 6px 0;
+        margin: 3% 3%;
     }
     .tab {
         visibility: collapse;
+       
     }
     
-    #show-menu{
-        display: none;
-    }
-       
+ 
     .main-nav .show-menu {
         display:block;
        
@@ -22,4 +27,24 @@
     #show-menu:checked ~ * .tab {
         visibility: visible;
     }
+    .main-nav {
+        background-color: pink;
+        width: 30%;
+    }
+    .main-nav ul {
+        display: inline-block;
+        width: 70%;
+        margin-right: 2%;
+        float: right;
+        background-color: yellow;
+           
+    }
+        .main-nav ul li {
+        display: block;
+        text-align: right;
+        margin-top: 3%;
+    
+  
 }
+}
+
