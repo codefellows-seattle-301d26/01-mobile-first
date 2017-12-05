@@ -1,13 +1,15 @@
-.byline {
-  display: inline-block;
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .site-header {
-  background-color: #eddc7d;
+    background-color: #eab85b;
+}
+
+.byline{
+    margin: 2%;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
 }
