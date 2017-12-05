@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <title>Lab 1</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <!--  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/icons.css"> -->
-  <link rel="stylesheet" href="styles/base.css">
-  <link rel="stylesheet" href="styles/layout.css">
-  <link rel="stylesheet" href="styles/modules.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/icons.css">
+  <link rel="stylesheet" href="vendor/styles/base.css">
+  <link rel="stylesheet" href="vendor/styles/layout.css">
+  <link rel="stylesheet" href="vendor/styles/modules.css">
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- We organized the above links in order that we want them to load. Normalize first so it's consistent across browsers. Then we want icons to load, following all the main content in base, then layout and lastly modules. We want all of our main elements to load before anything that will go in modules or even layout.-->
@@ -28,29 +28,26 @@
       </h1>
       <h2>The shocking power of static pages</h2>
     </section>
-    <!-- <nav class="main-nav"> -->
-      <nav>
-        <button class="hamburger">&#9776;</button>
-        <button class="cross">&#735;</button>
-      </nav>
-      
-      <div class="menu">
-        <ul>
-          <a href="#"><li>LINK ONE</li></a>
-          <a href="#"><li>LINK TWO</li></a>
-          <a href="#"><li>LINK THREE</li></a>
-          <a href="#"><li>LINK FOUR</li></a>
-          <a href="#"><li>LINK FIVE</li></a>
-        </ul>
-      </div> 
+
+    <nav>
+      <div class="menuToggle">
     
-     <!-- <ul>
-        <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
-        <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
-        <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
-        <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
-      </ul> -->
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul class="menu">
+          <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
+          <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
+          <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
+          <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+        </ul>
+      </div>
+    </nav>
+  
   </header>
+
+
 
   <main>
     <section id="articles" class="tab-content">
@@ -104,6 +101,5 @@
     <!-- REVIEW: Note the use of &copy; below, and take a moment to look up how special characters are displayed in HTML if you are not familiar with them. -->
     &copy; 2017 Code Fellows | Static Blog | Happy Ipsum!
   </footer>
-  <script src="app.js"></script>
 </body>
 </html>
