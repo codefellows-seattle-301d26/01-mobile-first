@@ -1,3 +1,27 @@
-html, body {
-    background : white;
+html, body, header{
+    backgrund-color: white;
 }
+
+p{
+    margin: 1%;
+}
+
+h1{
+    margin-top: 0;
+    padding: 1%;
+  
+}
+address {
+    max-width: 1px;
+}
+ul {
+    list-style-type: none;
+  }
+
+  li {
+      display: inline-block;
+      margin-bottom: 1px;
+      padding: 1%;
+      color: gray;
+      font-size: 120%;
+  }
