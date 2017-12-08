@@ -1,4 +1,7 @@
+@media screen and (max-width: 450px) {
+
 main{
     background-color: #FFFF;
     margin: 3%;
+}
 }

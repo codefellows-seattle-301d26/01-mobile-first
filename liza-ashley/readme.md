@@ -21,7 +21,7 @@ In order for a user to build this site they would first need to understand mobil
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
 
-This application is designed to mainly be used on mobile devices, but is adaptable to on desktop and other viewports. The meta tag "viewport" is what achieves that adaptibility. The libraries we used were normalize.css, and the languages we used were CSS and HTML.
+This application is designed to mainly be used on mobile devices, but is adaptable to on desktop and other viewports. The meta tag "viewport" is what achieves that adaptibility. We used HTML and CSS.
 
 ## Change Log
 <!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps.
