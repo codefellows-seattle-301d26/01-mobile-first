@@ -1,16 +1,15 @@
-   #show-menu {
-        display: none;
-    }
+   
        
     .pull-right{
         max-width: 100%;
     }
-    
+    .pull-left{
+        max-width: 100%;
+    }
     .article-body {
         font-family: 'Spectral SC', serif;
     }
 
-@media screen and (max-width: 600px) {
     .hamburger {
         float: right;
         width: 35px;
@@ -19,6 +18,12 @@
         border-bottom: 15px double black;
         margin: 3% 3%;
     }
+
+    #show-menu {
+        display: none;
+    }
+
+
     .tab {
         visibility: collapse;
        
@@ -28,7 +33,7 @@
     .main-nav .show-menu {
         display:block;
        
-    }
+    } 
     
     #show-menu:checked ~ * .tab {
         visibility: visible;
@@ -36,18 +41,27 @@
     .main-nav {
         width: 30%;
     }
+    
+    
+    /* .main-nav ul li {
+        display: block;
+        text-align: right;
+        margin-top: 3%;
+    } */
+@media screen and (min-width: 600px) {
+    .hamburger{
+        display: none;
+    }
+
+    .tab {
+        visibility: visible;
+       
+    }
     .main-nav ul {
         width: 70%;
         margin-right: 2%;
         float: right;
            
     }
-        .main-nav ul li {
-        display: block;
-        text-align: right;
-        margin-top: 3%;
-    
-  
-}
 }
 
