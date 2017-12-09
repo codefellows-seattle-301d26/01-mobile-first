@@ -6,8 +6,21 @@
     display: none;
 }
 
+.mobilea {
+    display: none;
+}
+
+
+
+@media all and (min-width: 450px) {
+main{
+    background-color: #FFFF;
+    margin: 3%;
+}
+
 .desktopmenu {
     list-style: none;
+   
 }
 
 .link {
@@ -23,3 +36,26 @@
     text-align: center;
     display: inline;
 }
+
+  a:hover {
+    color: tomato;
+  }
+
+.menuToggle input{
+    display: none;
+}
+
+.menuToggle span{
+    display: none;
+}
+
+.menuToggle {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+};
+
+
