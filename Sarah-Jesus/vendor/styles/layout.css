@@ -13,14 +13,12 @@ header.site-header {
 section.heading-group-h1 {
     display:absolute;
     float: left;
-    display: inline-block;
     width: 50%;
 
 }
 nav.main-nav {
     display:absolute;
     float: right;
-    display: inline-block;
     width: 50%;
 }
     .main-nav ul li {

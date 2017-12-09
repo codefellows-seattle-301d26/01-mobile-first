@@ -2,10 +2,16 @@
         display: none;
     }
        
+    .pull-right{
+        max-width: 100%;
+    }
+    
+    .article-body {
+        font-family: 'Spectral SC', serif;
+    }
 
 @media screen and (max-width: 600px) {
     .hamburger {
-        display: inline-block;
         float: right;
         width: 35px;
         height: 6px;
@@ -28,15 +34,12 @@
         visibility: visible;
     }
     .main-nav {
-        background-color: pink;
         width: 30%;
     }
     .main-nav ul {
-        display: inline-block;
         width: 70%;
         margin-right: 2%;
         float: right;
-        background-color: yellow;
            
     }
         .main-nav ul li {
