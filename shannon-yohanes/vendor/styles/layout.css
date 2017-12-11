@@ -1,0 +1,58 @@
+header{
+    height: 25%;
+    width: 100%;
+    position: relative;
+
+}
+
+.show-menu{
+    cursor: pointer;
+}
+
+.main-nav ul {
+    position: static;
+    display:none;
+}
+
+.main-nav li{
+padding: 1%;
+}
+
+@media screen and (min-width: 720px) {
+
+.main-nav ul {
+  display: inline;
+}
+
+.site-header a{
+padding: 1%;
+
+}
+.byline, .byline address {
+    display: inline;
+}
+main {
+    width: 90%;
+    margin: 5%;
+}
+
+article img {
+    width: 50%;
+}
+
+header {
+    margin-top: 0%;
+}
+
+a{
+    color: grey;
+}
+
+    .menu li{
+        display: inline;
+    }
+
+    .hamburger{
+        display: none;
+    }
+}
