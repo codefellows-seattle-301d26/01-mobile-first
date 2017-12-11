@@ -1,0 +1,21 @@
+.hamburger{
+    width: 7%;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+
+.main-nav input[type=checkbox] {
+display: none;
+}
+
+.main-nav input[type=checkbox]:checked ~ .menu {
+display: block;
+list-style: none;
+width: 100%;
+}
+
+.site-header {
+  background: #FFEDA5;
+  padding-bottom: 1%;
+}
