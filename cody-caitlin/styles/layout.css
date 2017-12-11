@@ -1,0 +1,12 @@
+
+.site-header {
+    background-color:  #FFEDA5;
+    width: 100%;
+}
+
+.checkbox {
+    display: none;
+}
+.tab, .icon-twitter3, .icon-github{
+    display: inline-block;
+}
