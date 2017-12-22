@@ -10,3 +10,26 @@
 .tab, .icon-twitter3, .icon-github{
     display: inline-block;
 }
+
+.container {
+    text-align: center;
+}
+
+body li p div{
+    text-align: center;
+    max-width: 100%;
+    background-color: blanchedalmond;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    padding: right 10%;
+    padding: bottom 3%;
+    background-color:rgba(82, 9, 9, 0.459);
+}
+
+.shield {
+    align-content: right;
+    width: 200px;
+}

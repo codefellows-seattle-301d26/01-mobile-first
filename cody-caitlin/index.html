@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Lab 1</title>
-  <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
+  <!-- DONE: Add a meta tag to properly set the viewport and initial scale -->
   <meta  name="viewport" content="width=device-width, intial-scale= 1.0">
   
-  <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
+  <!-- DONE: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
   <link rel="stylesheet" href="vendor/styles/normalize.css">
 
-  <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
+  <!-- DONE: Link in the provided styles/icons.css file so that you can use icon fonts -->
 <link rel="stylesheet" href="styles/icons.css">
 
-  <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
+  <!-- DONE: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/layout.css">
   <link rel="stylesheet" href="styles/modules.css">
@@ -35,18 +35,23 @@
       <h2>The shocking power of static pages</h2>
     </section>
     <!-- <nav class="main-nav"> -->
-      <!-- TODO: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
+      <!-- DONE: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
       <!-- <div class="icon-menu"></div> -->
-      <div class="menuToggle">
+      <!-- <div class="menuToggle">
       <input class="checkbox" type="checkbox"/>
       <span></span>
       <span></span>
       <span></span>
-      <ul>
-        <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
-        <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
-        <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
-        <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+      <ul> -->
+          <div class="header-content">
+              <nav class="main-nav">
+                <label for="show-nav" class="show-nav"> <img class="hamburger" src="assets/Hamburger_icon.svg.png"></label>
+              <input type = "checkbox" id="show-nav">
+          <ul class="menu">
+            <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
+            <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
+            <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
+            <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
       </ul>
     </div>
     <!-- </nav> -->
@@ -105,3 +110,81 @@
   </footer>
 </body>
 </html>
+
+
+<!-- @media screen and (max-width: 500px) {
+  a {
+      text-decoration: none;
+      color: gray;
+      transition: color 0.3s ease;
+    }
+    .menuToggle {
+        /* display: block; */
+        position: relative;
+        top: 100%;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+        float: right;
+    }
+    
+    .menuToggle input {
+      display: block;
+      width: 40px;
+      height: 30px;
+      position: absolute;
+      top: -7px;
+      left: -1px;
+      opacity: 0;
+      z-index: 2; 
+    }
+    
+    .menuToggle span {
+      display: block;
+      width: 32px;
+      height: 3px;
+      margin-bottom: 5px;
+      position: relative;
+      background: gray;
+      border-radius: 3px;
+      z-index: 1;
+    }
+    
+    .menuToggle span:first-child {
+      transform-origin: 0% 0%;
+    }
+    
+    .menuToggle span:nth-last-child(2) {
+      transform-origin: 0% 100%;
+    }
+
+    .menu {
+      position: relative;
+      width: 100%;
+      margin-left: 140%;
+      margin-top: -40%;
+      padding: 100%;
+      background: rgb(255,234,170);
+      list-style-type: none;
+      transform-origin: 0% 0%;
+      transform: translate(-100%, 0);
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+      display: none;
+    }
+    
+    .menu li {
+      padding: 10px 0;
+      font-size: 20px;
+    }
+
+    .menuToggle input:checked ~ ul {
+      transform: none;
+    }
+
+    li, ul {
+      display: block;
+      margin-bottom: 2%;
+      padding: 1%;
+      color: gray;
+  }
+    }  -->

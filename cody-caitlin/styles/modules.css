@@ -1,76 +1,37 @@
-@media screen and (max-width: 500px) {
-    a {
-        text-decoration: none;
-        color: gray;
-        transition: color 0.3s ease;
-      }
-      .menuToggle {
-          /* display: block; */
-          position: relative;
-          top: 100%;
-          z-index: 1;
-          -webkit-user-select: none;
-          user-select: none;
-          float: right;
-      }
-      
-      .menuToggle input {
-        display: block;
-        width: 40px;
-        height: 30px;
+
+      .hamburger{
+        width: 7%;
         position: absolute;
-        top: -7px;
-        left: -1px;
-        opacity: 0;
-        z-index: 2; 
+        top: 0%;
+        right: 10%;
       }
       
-      .menuToggle span {
-        display: block;
-        width: 32px;
-        height: 3px;
-        margin-bottom: 5px;
-        position: relative;
-        background: gray;
-        border-radius: 3px;
-        z-index: 1;
-      }
-      
-      .menuToggle span:first-child {
-        transform-origin: 0% 0%;
-      }
-      
-      .menuToggle span:nth-last-child(2) {
-        transform-origin: 0% 100%;
-      }
-  
-      .menu {
-        position: relative;
-        width: 100%;
-        margin-left: 140%;
-        margin-top: -40%;
-        padding: 100%;
-        background: rgb(255,234,170);
-        list-style-type: none;
-        transform-origin: 0% 0%;
-        transform: translate(-100%, 0);
-        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+      .main-nav input[type=checkbox] {
         display: none;
       }
       
-      .menu li {
-        padding: 10px 0;
-        font-size: 20px;
-      }
-
-      .menuToggle input:checked ~ ul {
-        transform: none;
-      }
-  
-      li, ul {
+      .main-nav input[type=checkbox]:checked ~ .menu {
         display: block;
-        margin-bottom: 2%;
+        width: 100%;
+        background-color:gray;
+      }
+      
+      .show-menu{
+        cursor: pointer;
+      }
+      
+      .main-nav ul {
+        position: static;
+        display:none;
+      }
+      
+      .main-nav li{
+        width: 80%;
+        border: 1px lightgrey solid;
         padding: 1%;
-        color: gray;
-    }
+      }
+      .nav-h1{
+        display: inline;
+        top: 10%;
+        right: 1200px;
       }
