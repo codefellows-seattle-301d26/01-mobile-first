@@ -2,11 +2,66 @@
 .site-header {
     background-color:  #FFEDA5;
     width: 100%;
+    display:block;
 }
 
 .checkbox {
     display: none;
 }
-.tab, .icon-twitter3, .icon-github{
+
+@media all and (min-width: 500px) {
+.hamburger{
+    display:none; 
+    width: 7%;
+    position: absolute;
+    top: 0%;
+    right: 10%;
+  }  
+  .main-nav .menu {
+    display: inline-flex;
+    width: 100%;
+    background-color:rgb(255,234,170);
+  }
+  
+  .show-menu{
+    cursor: pointer;
+  }
+  
+  .main-nav ul {
+    position: static;
     display: inline-block;
+  }
+  
+  .main-nav li{
+    width: 80%;
+    border: 1px ;
+    padding: 1%;
+  }
+  .nav-h1{
+    display: inline;
+    top: 10%;
+    right: 1200px;
+  }
+  .container {
+    text-align: center;
+}
+
+body li p div{
+    text-align: center;
+    max-width: 100%;
+    background-color: blanchedalmond;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    padding: right 10%;
+    padding: bottom 3%;
+    background-color:rgba(82, 9, 9, 0.459);
+}
+
+.shield {
+    align-content: right;
+    width: 200px;
+}
 }
