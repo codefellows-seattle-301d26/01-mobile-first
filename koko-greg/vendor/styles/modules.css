@@ -1,0 +1,44 @@
+a:link {
+    text-decoration: none;
+    color: grey;
+    font-size: 24px;
+}
+
+a:visited {
+    color: grey;
+    text-decoration: none;
+}
+
+.clearfix:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.icon-menu {
+    float: right;
+    font-size: 50px;
+   position: relative;
+    bottom: 126px;
+}
+
+nav:hover ul li {
+    display: inline-block;
+    width: 100%;
+}
+
+@media (max-width: 625px) {
+    nav ul li{
+        display: none;
+    }
+
+}
+@media (min-width: 625px) {
+    .icon-menu {
+        display: none;
+
+    }
+    a {
+        font-size: 24px;
+    }
+}

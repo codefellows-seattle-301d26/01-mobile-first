@@ -1,0 +1,21 @@
+html {
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    padding: 2%;
+    border-bottom: 1px grey solid;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+address {
+    display: inline;
+}
+
+section, h1, h2 {
+    margin: 2%;
+}
