@@ -1,0 +1,61 @@
+.site-header {
+    background-color:  #FFEDA5;
+}
+
+.checkbox {
+    display: none;
+}
+
+.mobilea {
+    display: none;
+}
+
+
+
+@media all and (min-width: 450px) {
+main{
+    background-color: #FFFF;
+    margin: 3%;
+}
+
+.desktopmenu {
+    list-style: none;
+   
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.pull-right {
+    max-width: 100%;
+}
+
+.center {
+    text-align: center;
+    display: inline;
+}
+
+  a:hover {
+    color: tomato;
+  }
+
+.menuToggle input{
+    display: none;
+}
+
+.menuToggle span{
+    display: none;
+}
+
+.menuToggle {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+};
+
+
